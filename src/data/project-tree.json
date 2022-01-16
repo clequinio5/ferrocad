@@ -1,0 +1,113 @@
+[
+    {
+        "title": "Directory 1",
+        "key": "dir1",
+        "children": [
+            {
+                "title": "Diagram 1",
+                "key": "dir1/diagram1",
+                "file": "20220107053801.json"
+            },
+            {
+                "title": "Sub Directory 1",
+                "key": "dir1/sdir1",
+                "children": [
+                    {
+                        "title": "Diagram 1",
+                        "key": "dir1/sdir1/diagram1",
+                        "file": "20220107053801.json"
+                    },
+                    {
+                        "title": "Diagram 2",
+                        "key": "dir1/sdir1/diagram2",
+                        "file": "20220107053801.json"
+                    },
+                    {
+                        "title": "Diagram 3",
+                        "key": "dir1/sdir1/diagram3",
+                        "file": "20220107042406.json"
+                    }
+                ]
+            },
+            {
+                "title": "Sub Directory 2",
+                "key": "dir1/sdir2",
+                "children": [
+                    {
+                        "title": "Diagram 1",
+                        "key": "dir1/sdir2/diagram1",
+                        "file": "20220107042406.json"
+                    },
+                    {
+                        "title": "Diagram 2",
+                        "key": "dir1/sdir2/diagram2",
+                        "file": "20220107053801.json"
+                    },
+                    {
+                        "title": "Diagram 3",
+                        "key": "dir1/sdir2/diagram3",
+                        "file": "20220107042406.json"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "title": "Directory 2",
+        "key": "dir2",
+        "children": [
+            {
+                "title": "Diagram 1",
+                "key": "dir2/diagram1",
+                "file": "20220107042406.json"
+            },
+            {
+                "title": "Sub Directory 1",
+                "key": "dir2/sdir1",
+                "children": [
+                    {
+                        "title": "Diagram 1",
+                        "key": "dir2/sdir1/diagram1",
+                        "file": "20220107042406.json"
+                    },
+                    {
+                        "title": "Diagram 2",
+                        "key": "dir2/sdir1/diagram2",
+                        "file": "20220107042406.json"
+                    },
+                    {
+                        "title": "Diagram 3",
+                        "key": "dir2/sdir1/diagram3",
+                        "file": "20220107042406.json"
+                    }
+                ]
+            },
+            {
+                "title": "Sub Directory 2",
+                "key": "dir2/sdir2",
+                "children": [
+                    {
+                        "title": "Diagram 1",
+                        "key": "dir2/sdir2/diagram1",
+                        "file": "20220107042406.json"
+                    },
+                    {
+                        "title": "Diagram 2",
+                        "key": "dir2/sdir2/diagram2",
+                        "file": "20220107042406.json"
+                    },
+                    {
+                        "title": "Diagram 3",
+                        "key": "dir2/sdir2/diagram3",
+                        "file": "20220107042406.json"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "title": "Diagram 1",
+        "key": "diagram1",
+        "file": "20220107042406.json"
+    }
+]

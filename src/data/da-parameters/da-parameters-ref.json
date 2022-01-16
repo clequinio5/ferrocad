@@ -1,0 +1,83 @@
+{
+    "grid": {
+        "gridSize": 10,
+        "gridColor": "#606060",
+        "gridShape": "crossgrid",
+        "zoomMin": 0.2,
+        "zoomMax": 10,
+        "zoomInc": 0.4,
+        "dblClickZoomEnabled": true,
+        "mouseWheelZoomEnabled": true
+    },
+    "link": {
+        "connector": "jumpover",
+        "router": "metro",
+        "snapRadius": 20,
+        "look": {
+            "line": {
+                "stroke": "#606060",
+                "strokeWidth": 2,
+                "sourceMarker": {
+                    "type": "none"
+                },
+                "targetMarker": {
+                    "type": "none"
+                }
+            }
+        }
+    },
+    "defaultComponent": {
+        "look": {
+            "body": {
+                "fill": "#b38600",
+                "stroke": "stroke"
+            },
+            "label": {
+                "text": "",
+                "fill": "#fff"
+            }
+        },
+        "port": {
+            "look": {
+                "circle": {
+                    "fill": "#606060",
+                    "r": 4,
+                    "stroke": "none",
+                    "magnet": true
+                }
+            }
+        }
+    },
+    "_grid": {
+        "gridShape": [
+            "grid",
+            "points",
+            "cross",
+            "crossgrid",
+            "none"
+        ]
+    },
+    "_link": {
+        "connector": [
+            "jumpover",
+            "normal",
+            "rounded",
+            "smooth"
+        ],
+        "router": [
+            "manhattan",
+            "metro",
+            "normal",
+            "orthogonal",
+            "oneSide"
+        ],
+        "look/sourceMarker/type": [
+            "path",
+            "circle",
+            "ellipse",
+            "rect",
+            "polyline",
+            "polygon"
+        ]
+    }
+}

@@ -1,0 +1,32 @@
+[
+    {
+        "key": "user",
+        "icon": "user",
+        "text": "Account"
+    },
+    {
+        "key": "bi",
+        "icon": "bar-chart",
+        "text": "Reportings"
+    },
+    {
+        "key": "dam",
+        "icon": "snippets",
+        "text": "Access to DAM"
+    },
+    {
+        "key": "cad",
+        "icon": "codepen-circle",
+        "text": "Computer Aided Design"
+    },
+    {
+        "key": "team",
+        "icon": "team",
+        "text": "Team"
+    },
+    {
+        "key": "settings",
+        "icon": "setting",
+        "text": "Parameters"
+    }
+]

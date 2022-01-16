@@ -1,0 +1,125 @@
+$color1:#000B1F;
+$color2:#001529;
+$color3:#001529;
+//$color3:#334454;
+$color4:#1DA57A;
+$color5:#fff;
+
+
+.PaneBoxHeader {
+  background-color: $color1;
+  font-size: 12px;
+  font-weight: bold;
+  color: $color5 ;
+  padding-left:10px;
+  height:24px;
+  line-height: 24px;
+  text-align: center left;
+  width: 100%;
+}
+
+.PaneBoxContent {
+  background-color: $color3;
+  color: $color5;
+}
+
+.ProjectTreeNode {
+  padding: 0 0 0 0 !important;
+}
+
+.ComponentTreeNode {
+  padding: 0 0 0 0 !important;
+}
+
+.ProjectTreeNode  span {
+  color: white;
+}
+
+.ComponentTreeNode  span {
+  color: white;
+}
+
+.ant-tabs.ant-tabs-card .ant-tabs-card-bar .ant-tabs-tab {
+  background-color: $color1 !important;
+  color: $color5 !important;
+  border-color: black !important;
+  border-style: 0.5px !important;
+  border-radius: 0 0 0 0 !important;
+  border-top-style: none !important;
+  border-bottom-style: none !important;
+}
+
+.ant-tabs.ant-tabs-card .ant-tabs-card-bar .ant-tabs-tab-active {
+    color: $color4 !important;
+    background-color: $color2 !important;
+  }
+
+.ant-tabs.ant-tabs-card .ant-tabs-card-bar .ant-tabs-tab .ant-tabs-close-x {
+  font-size: 8px !important;
+  color: $color5 !important;
+}
+
+.ant-tabs-bar {
+  margin:0px ;
+  border-bottom: 0px;
+}
+
+.ant-tabs-tab-prev, .ant-tabs-tab-next {
+  color:white;
+}
+
+.ant-tabs-tab-btn-disabled {
+  display:none;
+}
+
+.ant-tabs-bar {
+  margin:0px ;
+  border-bottom: 0px;
+  color:$color5 !important;
+}
+
+.TabsPane {
+  background-color: $color2;
+}
+
+.MenuCAD {
+  height: '34px';
+  background-color: $color2;
+}
+
+.SplitPane {
+  position:relative;
+  flex-grow:1;
+}
+
+.PaneLog {
+  background-color: $color2;
+  width:100%;
+  color:$color5;
+}
+
+.DrawArea {
+  background-color: $color2;
+   height: calc(100vh - 64px);
+}
+
+.MenuButton {
+  margin-left:10px;
+  margin-bottom:10px;
+  display:inline-block;
+}
+
+.NoTabButton {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.joint-port-body {
+  cursor: pointer
+}
+
+
+
+

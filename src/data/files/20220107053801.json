@@ -1,0 +1,199 @@
+{
+    "cells": [
+        {
+            "type": "standard.Rectangle",
+            "position": {
+                "x": 240,
+                "y": 150
+            },
+            "size": {
+                "width": 30,
+                "height": 30
+            },
+            "angle": 0,
+            "properties": {
+                "property1": 12.56,
+                "property2": 15.89,
+                "@ key": "carre2",
+                "@ title": "carre2"
+            },
+            "ports": {
+                "groups": {
+                    "gpAbs": {
+                        "position": {
+                            "name": "absolute"
+                        },
+                        "attrs": {
+                            "circle": {
+                                "fill": "#606060",
+                                "r": 4,
+                                "stroke": "none",
+                                "magnet": true
+                            }
+                        }
+                    }
+                },
+                "items": [
+                    {
+                        "group": "gpAbs",
+                        "args": {
+                            "x": -4,
+                            "y": "50%"
+                        },
+                        "id": "b43ae61e-d472-45d8-adea-3cba5d932e4f"
+                    },
+                    {
+                        "group": "gpAbs",
+                        "args": {
+                            "x": 34,
+                            "y": "50%"
+                        },
+                        "id": "0a46611d-f538-4efe-b448-5f0b305aa7a1"
+                    }
+                ]
+            },
+            "id": "7aafab56-7f49-4408-a3c8-dcc68d5b807e",
+            "z": 1,
+            "attrs": {
+                "body": {
+                    "stroke": "stroke",
+                    "fill": "#b38600",
+                    "rx": 10,
+                    "ry": 10
+                },
+                "label": {
+                    "fill": "#fff",
+                    "text": ""
+                }
+            }
+        },
+        {
+            "type": "standard.Rectangle",
+            "position": {
+                "x": 540,
+                "y": 210
+            },
+            "size": {
+                "width": 30,
+                "height": 30
+            },
+            "angle": 0,
+            "properties": {
+                "property1": 12.56,
+                "property2": 15.89,
+                "@ key": "carre3",
+                "@ title": "carre3"
+            },
+            "ports": {
+                "groups": {
+                    "gpAbs": {
+                        "position": {
+                            "name": "absolute"
+                        },
+                        "attrs": {
+                            "circle": {
+                                "fill": "#606060",
+                                "r": 4,
+                                "stroke": "none",
+                                "magnet": true
+                            }
+                        }
+                    }
+                },
+                "items": [
+                    {
+                        "group": "gpAbs",
+                        "args": {
+                            "x": -4,
+                            "y": "50%"
+                        },
+                        "id": "c013f2d3-d5a1-4930-b9b6-643c85eee51b"
+                    },
+                    {
+                        "group": "gpAbs",
+                        "args": {
+                            "x": 34,
+                            "y": "50%"
+                        },
+                        "attrs": {
+                            "label": {
+                                "text": "in1"
+                            },
+                            "circle": {
+                                "fill": "red"
+                            }
+                        },
+                        "id": "761fdb1b-addb-482a-acea-b72400fa25f8"
+                    },
+                    {
+                        "group": "gpAbs",
+                        "args": {
+                            "x": "50%",
+                            "y": 38
+                        },
+                        "attrs": {
+                            "circle": {
+                                "r": 8,
+                                "fill": "green"
+                            }
+                        },
+                        "id": "eaed8d9d-1ef9-40a1-af2e-5e97c7f2c9cd"
+                    }
+                ]
+            },
+            "id": "2f2e5b83-7b9e-4400-939e-047260afa26d",
+            "z": 2,
+            "attrs": {
+                "body": {
+                    "strokeWidth": 0,
+                    "stroke": "stroke",
+                    "fill": "#b38600",
+                    "rx": 0,
+                    "ry": 0
+                },
+                "label": {
+                    "fill": "#fff",
+                    "text": ""
+                }
+            }
+        },
+        {
+            "type": "standard.Link",
+            "source": {
+                "id": "7aafab56-7f49-4408-a3c8-dcc68d5b807e",
+                "magnet": "circle",
+                "port": "0a46611d-f538-4efe-b448-5f0b305aa7a1"
+            },
+            "target": {
+                "id": "2f2e5b83-7b9e-4400-939e-047260afa26d",
+                "magnet": "circle",
+                "port": "c013f2d3-d5a1-4930-b9b6-643c85eee51b"
+            },
+            "connector": {
+                "name": "jumpover"
+            },
+            "router": {
+                "name": "manhattan"
+            },
+            "id": "28ec0a42-3555-4566-b1d5-f5a881e29bf2",
+            "z": 3,
+            "vertices": [
+                {
+                    "x": 330,
+                    "y": 120
+                }
+            ],
+            "attrs": {
+                "line": {
+                    "stroke": "#606060",
+                    "targetMarker": {
+                        "type": "none"
+                    },
+                    "sourceMarker": {
+                        "type": "none"
+                    }
+                }
+            }
+        }
+    ]
+}

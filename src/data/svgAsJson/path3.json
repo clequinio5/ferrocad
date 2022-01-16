@@ -1,0 +1,40 @@
+{
+    "type": "Path",
+    "attrs": {
+        "body": {
+            "fill": "#6B8E23",
+            "refD": "M 0 5 10 0 C 20 0 20 20 10 20 L 0 15 Z"
+        }
+    },
+    "ports": [
+        {
+            "args": {
+                "x": -4,
+                "y": 15
+            }
+        },
+        {
+            "args": {
+                "x": 34,
+                "y": 10
+            }
+        },
+        {
+            "args": {
+                "x": 34,
+                "y": 20
+            },
+            "attrs": {
+                "circle": {
+                    "r": 4,
+                    "fill": "green",
+                    "stroke": "none"
+                }
+            }
+        }
+    ],
+    "properties": {
+        "pkDebut": 12.56,
+        "pkFin": 20.56
+    }
+}

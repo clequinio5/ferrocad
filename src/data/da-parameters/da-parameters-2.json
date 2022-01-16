@@ -1,0 +1,11 @@
+{
+    "grid": {
+        "gridSize": 1,
+        "gridColor": "#b38600",
+        "gridShape": "points"
+    },
+    "link": {
+        "connector": "normal",
+        "router": "metro"
+    }
+}

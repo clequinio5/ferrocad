@@ -1,0 +1,193 @@
+{
+    "cells": [
+        {
+            "type": "standard.Path",
+            "position": {
+                "x": 240,
+                "y": 150
+            },
+            "size": {
+                "width": 30,
+                "height": 30
+            },
+            "angle": 0,
+            "properties": {
+                "property1": 12.56,
+                "property2": 20.56,
+                "@ key": "default",
+                "@ title": "circle1"
+            },
+            "ports": {
+                "groups": {
+                    "gpAbs": {
+                        "position": {
+                            "name": "absolute"
+                        },
+                        "attrs": {
+                            "circle": {
+                                "fill": "#606060",
+                                "r": 4,
+                                "stroke": "none",
+                                "magnet": true
+                            }
+                        }
+                    }
+                },
+                "items": [
+                    {
+                        "group": "gpAbs",
+                        "args": {
+                            "x": -4,
+                            "y": 15
+                        },
+                        "id": "8fbd236a-3758-44c1-95b0-6d60ac289eea"
+                    },
+                    {
+                        "group": "gpAbs",
+                        "args": {
+                            "x": 34,
+                            "y": 10
+                        },
+                        "id": "bec9bf36-9ce6-4637-89cb-3c463d5beb74"
+                    },
+                    {
+                        "group": "gpAbs",
+                        "args": {
+                            "x": 34,
+                            "y": 20
+                        },
+                        "attrs": {
+                            "circle": {
+                                "r": 4,
+                                "fill": "green",
+                                "stroke": "none"
+                            }
+                        },
+                        "id": "d9173db3-11b5-4af9-8b45-981769c08375"
+                    }
+                ]
+            },
+            "id": "42eb6f86-84c0-4264-a6df-f7b9345e5905",
+            "z": 1,
+            "attrs": {
+                "body": {
+                    "refD": "M 0 5 10 0 C 20 0 20 20 10 20 L 0 15 Z",
+                    "stroke": "stroke",
+                    "fill": "#6B8E23"
+                },
+                "label": {
+                    "fill": "#fff",
+                    "text": ""
+                }
+            }
+        },
+        {
+            "type": "standard.Circle",
+            "position": {
+                "x": 481,
+                "y": 57
+            },
+            "size": {
+                "width": 100,
+                "height": 100
+            },
+            "angle": 0,
+            "properties": {
+                "property1": 1.21,
+                "property2": 102.5,
+                "@ key": "circleN",
+                "@ title": "circleN"
+            },
+            "ports": {
+                "groups": {
+                    "gp1": {
+                        "position": {
+                            "name": "ellipseSpread"
+                        },
+                        "attrs": {
+                            "circle": {
+                                "fill": "#606060",
+                                "r": 4,
+                                "stroke": "none",
+                                "magnet": true
+                            }
+                        }
+                    }
+                },
+                "items": [
+                    {
+                        "group": "gp1",
+                        "id": "8bf9003e-b687-4b10-b053-f8bc1ead3058"
+                    },
+                    {
+                        "group": "gp1",
+                        "attrs": {
+                            "circle": {
+                                "r": 4,
+                                "fill": "green",
+                                "stroke": "none"
+                            }
+                        },
+                        "id": "b2ef7467-a8a4-4192-8822-33785aa180db"
+                    },
+                    {
+                        "group": "gp1",
+                        "id": "e02d1f04-7974-442b-9f0f-4ef0ecbff5b4"
+                    },
+                    {
+                        "group": "gp1",
+                        "id": "cd6940f3-8e05-4b82-af9c-7d52a8360da7"
+                    },
+                    {
+                        "group": "gp1",
+                        "id": "4bc47975-29f7-4ba5-8c38-0d88ec6632d5"
+                    }
+                ]
+            },
+            "id": "26155a0d-c61b-4fe3-aa41-ee53a11a5f68",
+            "z": 2,
+            "attrs": {
+                "body": {
+                    "stroke": "stroke",
+                    "fill": "#039f9f"
+                },
+                "label": {
+                    "fill": "#fff",
+                    "text": ""
+                }
+            }
+        },
+        {
+            "type": "standard.Link",
+            "source": {
+                "id": "26155a0d-c61b-4fe3-aa41-ee53a11a5f68",
+                "magnet": "circle",
+                "port": "4bc47975-29f7-4ba5-8c38-0d88ec6632d5"
+            },
+            "target": {
+                "id": "42eb6f86-84c0-4264-a6df-f7b9345e5905",
+                "magnet": "circle",
+                "port": "bec9bf36-9ce6-4637-89cb-3c463d5beb74"
+            },
+            "connector": {
+                "name": "jumpover"
+            },
+            "router": {
+                "name": "manhattan"
+            },
+            "id": "18f14aa4-1986-49d9-880b-7f3a7a129c1c",
+            "z": 3,
+            "attrs": {
+                "line": {
+                    "stroke": "#606060",
+                    "targetMarker": {
+                        "type": "none"
+                    },
+                    "sourceMarker": {
+                        "type": "none"
+                    }
+                }
+            }
+        }
+    ]
+}

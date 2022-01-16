@@ -1,0 +1,17 @@
+{
+    "type": "Rectangle",
+    "attrs": {
+        "label": {
+            "text": "text block",
+            "fill": "#b38600"
+        },
+        "body": {
+            "fill": "none"
+        }
+    },
+    "properties": {},
+    "dynamicProperties": {
+        "text": "text block",
+        "fill": "#b38600"
+    }
+}

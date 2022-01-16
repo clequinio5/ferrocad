@@ -1,0 +1,11 @@
+{
+    "grid": {
+        "gridSize": 30,
+        "gridColor": "#383838",
+        "gridShape": "grid"
+    },
+    "link": {
+        "connector": "jumpover",
+        "router": "manhattan"
+    }
+}

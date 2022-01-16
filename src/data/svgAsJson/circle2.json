@@ -1,0 +1,26 @@
+{
+    "type": "Circle",
+    "attrs": {
+        "body": {
+            "fill": "#b38600"
+        }
+    },
+    "ports": [
+        {
+            "args": {
+                "x": -4,
+                "y": 15
+            }
+        },
+        {
+            "args": {
+                "x": 34,
+                "y": 15
+            }
+        }
+    ],
+    "properties": {
+        "pkDebut": 1.21,
+        "pkFin": 102.5
+    }
+}

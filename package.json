@@ -1,0 +1,45 @@
+{
+  "name": "ferrocad",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@babel/plugin-proposal-decorators": "^7.16.7",
+    "antd": "^3.25.1",
+    "babel-plugin-import": "^1.12.2",
+    "closest": "^0.0.1",
+    "customize-cra": "^0.9.1",
+    "dxf-parser": "^1.0.0-alpha.2",
+    "jointjs": "^3.1.1",
+    "less": "^3.10.3",
+    "less-loader": "^5.0.0",
+    "moment": "^2.24.0",
+    "node-sass": "^4.13.0",
+    "paths-js": "^0.4.9",
+    "react": "^16.11.0",
+    "react-app-rewired": "^2.1.5",
+    "react-dom": "^16.11.0",
+    "react-router-dom": "^5.1.2",
+    "react-scripts": "3.2.0",
+    "react-split-pane": "^0.1.89",
+    "recoil": "^0.5.2",
+    "svg-pan-zoom": "^3.6.1"
+  },
+  "scripts": {
+    "start": "react-app-rewired start",
+    "build": "react-app-rewired build",
+    "test": "react-app-rewired test",
+    "eject": "react-scripts eject"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}

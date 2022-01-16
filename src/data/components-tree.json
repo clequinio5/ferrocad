@@ -1,0 +1,130 @@
+[
+    {
+        "title": "COMPOSANTS",
+        "key": "COMPOSANTS",
+        "children": [
+            {
+                "title": "RECTANGLE",
+                "key": "RECTANGLE",
+                "children": [
+                    {
+                        "title": "CARRE 1",
+                        "key": "carre1"
+                    },
+                    {
+                        "title": "CARRE 2",
+                        "key": "carre2"
+                    },
+                    {
+                        "title": "CARRE 3",
+                        "key": "carre3"
+                    },
+                    {
+                        "title": "RECTANGLE 1",
+                        "key": "rect1"
+                    },
+                    {
+                        "title": "RECTANGLE 2",
+                        "key": "rect2"
+                    }
+                ]
+            },
+            {
+                "title": "CIRCLE",
+                "key": "CIRCLE",
+                "children": [
+                    {
+                        "title": "CIRCLE 1",
+                        "key": "circle1"
+                    },
+                    {
+                        "title": "CIRCLE 2",
+                        "key": "circle2"
+                    },
+                    {
+                        "title": "CIRCLE 3",
+                        "key": "circle3"
+                    },
+                    {
+                        "title": "CIRCLE N",
+                        "key": "circleN"
+                    },
+                    {
+                        "title": "CIRCLE CUSTOM",
+                        "key": "circleCustom"
+                    }
+                ]
+            },
+            {
+                "title": "PATH",
+                "key": "PATH",
+                "children": [
+                    {
+                        "title": "PATH 1",
+                        "key": "path1"
+                    },
+                    {
+                        "title": "PATH 2",
+                        "key": "path2"
+                    },
+                    {
+                        "title": "PATH 3",
+                        "key": "path3"
+                    }
+                ]
+            },
+            {
+                "title": "AUTRES",
+                "key": "AUTRES",
+                "children": [
+                    {
+                        "title": "TEXTE 1",
+                        "key": "texte1"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "title": "CALQUES",
+        "key": "CALQUES",
+        "children": [
+            {
+                "title": "CARTOUCHES",
+                "key": "CARTOUCHES",
+                "children": [
+                    {
+                        "title": "CARTOUCHE 1",
+                        "key": "CARTOUCHE 1"
+                    },
+                    {
+                        "title": "CARTOUCHE 2",
+                        "key": "CARTOUCHE 2"
+                    },
+                    {
+                        "title": "CARTOUCHE 3",
+                        "key": "CARTOUCHE 3"
+                    }
+                ]
+            },
+            {
+                "title": "METADONNEES",
+                "key": "METADONNEES",
+                "children": [
+                    {
+                        "title": "META 1",
+                        "key": "META 1"
+                    },
+                    {
+                        "title": "META 2",
+                        "key": "META 2"
+                    },
+                    {
+                        "title": "META 3",
+                        "key": "META 3"
+                    }
+                ]
+            }
+        ]
+    }
+]

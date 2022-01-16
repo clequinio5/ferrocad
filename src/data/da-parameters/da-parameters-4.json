@@ -1,0 +1,10 @@
+{
+    "grid": {
+        "gridColor": "#383838",
+        "gridShape": "crossgrid"
+    },
+    "link": {
+        "connector": "jumpover",
+        "router": "manhattan"
+    }
+}
