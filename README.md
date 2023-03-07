@@ -9,9 +9,11 @@ npm start
 
 # Dependancies
 
+- Nodejs v13 (for node-sass compatibility)
 - ReactJS
 - Ant Design
 - JointJs
+- Recoil (for state management system)
 
 # Teasing
 
