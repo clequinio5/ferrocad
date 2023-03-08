@@ -28,7 +28,10 @@
     "start": "react-app-rewired start",
     "build": "react-app-rewired build",
     "test": "react-app-rewired test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "docker-build": "docker build --file ferrocad.dockerfile --tag ferrocad/ferrocad-frontend-service .",
+    "docker-run": "docker run --publish 80:80 ferrocad/ferrocad-frontend-service",
+    "docker-push": "docker push ferrocad/ferrocad-frontend-service"
   },
   "browserslist": {
     "production": [
